@@ -1,8 +1,13 @@
+GIT
+  remote: git://github.com/benjaminasmith/phonie.git
+  revision: d128ff010dbe2174337aa4c146307abf851625ff
+  specs:
+    phonie (1.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.3)
-    phonie (1.0.3)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -25,7 +30,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  phonie
+  phonie!
   rspec
   sinatra
   tzinfo
