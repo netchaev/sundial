@@ -4,7 +4,7 @@ ruby '1.9.3'
 
 gem 'sinatra'
 gem 'tzinfo'
-gem 'phonie'
+gem 'phonie', :git=> "git://github.com/benjaminasmith/phonie.git"
 
 group :test do
   gem 'rspec'
